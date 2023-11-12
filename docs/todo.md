@@ -27,7 +27,7 @@
 
 #### `db`
 
-- [ ] user table
+- [x] user table
 - [ ] token table
 - [ ] twit table
   - [ ] pscale connect
