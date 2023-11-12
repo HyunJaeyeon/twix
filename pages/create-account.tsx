@@ -16,7 +16,7 @@ const CreateAccount: NextPage = () => {
     formState: { errors },
   } = useForm<CreateAccountForm>();
 
-  const onValid = useUser();
+  const { onValid } = useUser();
 
   return (
     <div className="flex flex-col gap-3 justify-center items-center m-8">
